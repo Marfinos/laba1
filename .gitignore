@@ -1,4 +1,6 @@
 *.cbp
 /bin
 /obj
+*.o
+*.exe
 *.layout
