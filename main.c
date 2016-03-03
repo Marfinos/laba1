@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//программа является учебной
+
 int a,b;
 int main()
 {
