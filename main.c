@@ -3,17 +3,17 @@
 
 //программа является учебной
 
-int a,b;
+float a,b;
 int main()
 {
     printf("Vvedite chislo A \n");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Vvedite chislo B \n");
-    scanf("%d",&b);
-    printf("%d + %d = %d \n", a,b,a+b);
-    printf("%d - %d = %d \n", a,b,a-b);
-    printf("%d * %d = %d \n", a,b,a*b);
-    printf("%d / %d = %d", a,b,a/b);
+    scanf("%f",&b);
+    printf("%1.0f + %1.0f = %1.0f \n", a,b,a+b);
+    printf("%1.0f - %1.0f = %1.0f \n", a,b,a-b);
+    printf("%1.0f * %1.0f = %1.0f \n", a,b,a*b);
+    printf("%1.0f / %1.0f = %1.2f", a,b,a/b);
 
     return 0;
 }
